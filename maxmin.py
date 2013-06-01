@@ -1,3 +1,5 @@
+""" Finds the max and min within a list """
+
 def maxmin(list):
     min = list[0]
     max = list[0]
@@ -7,5 +9,5 @@ def maxmin(list):
             max = list[i]
         elif list[i] < min:
             min = list[i]
-    print "The max is "+str(max)
-    print "The min is "+str(min)
+    print "The max is %s" % str(max)
+    print "The min is %s" % str(min)
